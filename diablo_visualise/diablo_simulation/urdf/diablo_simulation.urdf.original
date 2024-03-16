@@ -154,14 +154,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://diablo_ros2/diablo_visualise/diablo_simulation/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://$(find diablo_simulation)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://diablo_ros2/diablo_visualise/diablo_simulation/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://$(find diablo_simulation)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -174,14 +174,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="-0.00036 0.053347 -0.379"/>
       <geometry>
-        <mesh filename="package://diablo_ros2/diablo_visualise/diablo_simulation/meshes/motor_right_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://$(find diablo_simulation)/meshes/motor_right_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="-0.00036 0.053347 -0.379"/>
       <geometry>
-        <mesh filename="package://diablo_ros2/diablo_visualise/diablo_simulation/meshes/motor_right_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://$(find diablo_simulation)/meshes/motor_right_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -194,14 +194,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="-0.00036 -0.053553 -0.379"/>
       <geometry>
-        <mesh filename="package://diablo_ros2/diablo_visualise/diablo_simulation/meshes/motor_left_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://$(find diablo_simulation)/meshes/motor_left_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="-0.00036 -0.053553 -0.379"/>
       <geometry>
-        <mesh filename="package://diablo_ros2/diablo_visualise/diablo_simulation/meshes/motor_left_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://$(find diablo_simulation)/meshes/motor_left_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -214,14 +214,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="-0.00036 -0.171653 -0.379"/>
       <geometry>
-        <mesh filename="package://diablo_ros2/diablo_visualise/diablo_simulation/meshes/leg_left_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://$(find diablo_simulation)/meshes/leg_left_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="-0.00036 -0.171653 -0.379"/>
       <geometry>
-        <mesh filename="package://diablo_ros2/diablo_visualise/diablo_simulation/meshes/leg_left_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://$(find diablo_simulation)/meshes/leg_left_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -234,14 +234,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="-0.00036 -0.187653 -0.239"/>
       <geometry>
-        <mesh filename="package://diablo_ros2/diablo_visualise/diablo_simulation/meshes/leg2_left_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://$(find diablo_simulation)/meshes/leg2_left_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="-0.00036 -0.187653 -0.239"/>
       <geometry>
-        <mesh filename="package://diablo_ros2/diablo_visualise/diablo_simulation/meshes/leg2_left_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://$(find diablo_simulation)/meshes/leg2_left_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -254,14 +254,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="-0.00036 -0.215353 -0.099"/>
       <geometry>
-        <mesh filename="package://diablo_ros2/diablo_visualise/diablo_simulation/meshes/wheel_right_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://$(find diablo_simulation)/meshes/wheel_right_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="-0.00036 -0.215353 -0.099"/>
       <geometry>
-        <mesh filename="package://diablo_ros2/diablo_visualise/diablo_simulation/meshes/wheel_right_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://$(find diablo_simulation)/meshes/wheel_right_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -274,14 +274,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="-0.00036 0.171447 -0.379"/>
       <geometry>
-        <mesh filename="package://diablo_ros2/diablo_visualise/diablo_simulation/meshes/leg_right_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://$(find diablo_simulation)/meshes/leg_right_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="-0.00036 0.171447 -0.379"/>
       <geometry>
-        <mesh filename="package://diablo_ros2/diablo_visualise/diablo_simulation/meshes/leg_right_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://$(find diablo_simulation)/meshes/leg_right_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -294,14 +294,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="-0.00036 0.187447 -0.239"/>
       <geometry>
-        <mesh filename="package://diablo_ros2/diablo_visualise/diablo_simulation/meshes/leg2_right_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://$(find diablo_simulation)/meshes/leg2_right_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="-0.00036 0.187447 -0.239"/>
       <geometry>
-        <mesh filename="package://diablo_ros2/diablo_visualise/diablo_simulation/meshes/leg2_right_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://$(find diablo_simulation)/meshes/leg2_right_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -314,14 +314,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="-0.00036 0.215147 -0.099"/>
       <geometry>
-        <mesh filename="package://diablo_ros2/diablo_visualise/diablo_simulation/meshes/wheel_left_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://$(find diablo_simulation)/meshes/wheel_left_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="-0.00036 0.215147 -0.099"/>
       <geometry>
-        <mesh filename="package://diablo_ros2/diablo_visualise/diablo_simulation/meshes/wheel_left_link_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://$(find diablo_simulation)/meshes/wheel_left_link_1.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
