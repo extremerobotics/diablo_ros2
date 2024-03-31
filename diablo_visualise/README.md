@@ -15,3 +15,19 @@ ros2 launch diablo_simulation ctrl.launch.py
 > 注：启动后您需要手动关闭 `joint state publisher` 的 UI 。否则会影响您的数值显示。
 
 ![diablo_rviz2_launch](../docs/img/diablo_rviz_launch.png)
+
+
+### Translation in english 
+# DIABLO Visualise Node Data Visualization Node
+
+In this module, we provide a visual history of robot data using `rviz`, as well as a custom remote control plugin. You can start these features by launching the provided `launch` file. Utilize the multi-machine communication mechanism of `Ros2`, start `diablo_ctrl_node` on the `robot side` to gain control over the robot. On the `PC side` within the local network, launch `ctrl.launch.py` for remote control and to monitor the feedback of the data.
+
+## Quick Start
+
+Ensure that you have successfully compiled the contents of `diablo_visualise`.
+
+```bash
+ros2 launch diablo_simulation ctrl.launch.py
+
+Note: After launching, you need to manually close the UI of joint state publisher. Otherwise, it will affect the display of your numerical values.
+![diablo_rviz2_launch](../docs/img/diablo_rviz_launch.png)

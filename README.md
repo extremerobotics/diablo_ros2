@@ -95,32 +95,31 @@ ros2 run diablo_teleop teleop_node
 ```
 
 ## Contents 目录
+Below is the directory of Ros2 nodes:
 
-以下为Ros2 节点目录 :
+* [Robot Sensor Perception Module](./diablo_ception)
 
-* [机器人传感器感知模块](./diablo_ception)
+  > [Robot Built-in Sensors](./diablo_ception/diablo_body)
 
-  > [机器人内置传感器](./diablo_ception/diablo_body)
+* [Robot SDK and General Methods Module](./diablo_common)
 
-* [机器人SDK与通用方法模块](./diablo_common)
+* [Robot Control Interaction Module](./diablo_interaction)
 
-* [机器人控制交互模块](./diablo_interaction)
-
-  > [获取机器人SDK控制权限](./diablo_interaction/diablo_ctrl)
+  > [Obtaining Robot SDK Control Permission](./diablo_interaction/diablo_ctrl)
   >
-  > [捕获键盘输入信息](./diablo_interaction/diablo_teleop)
+  > [Capturing Keyboard Input Information](./diablo_interaction/diablo_teleop)
 
-* [ROS自定义消息模块](./diablo_interfaces)
+* [ROS Custom Message Module](./diablo_interfaces)
 
-  > [机器人基础控制信息](./diablo_interfaces/motion_msgs)
+  > [Basic Robot Control Information](./diablo_interfaces/motion_msgs)
 
-* [Ros可视化仿真模块](./diablo_visualise)
+* [Ros Visualization and Simulation Module](./diablo_visualise)
 
   > [Ros rviz2 gazebo simulation](./diablo_visualise/diablo_simulation)
   >
-  > [Rviz2 自定义遥控器界面](./diablo_visualise/diablo_rviz2_plugin)
+  > [Rviz2 Custom Remote Control Interface](./diablo_visualise/diablo_rviz2_plugin)
   >
-  > [电机角度转Rviz2显示角度](./diablo_visualise/diablo_simpose_trans)
+  > [Motor Angle to Rviz2 Display Angle](./diablo_visualise/diablo_simpose_trans)
 
   
 
